@@ -1,0 +1,974 @@
+# Wardog Cybersecurity Suite
+## Comprehensive Development Plan
+
+### 1. Executive Summary
+
+The Wardog Cybersecurity Suite is designed as a comprehensive, cross-platform security solution for enterprise and government clients. This document outlines the technical specifications, architecture, modules, and implementation plan for developing the complete suite as a standalone application.
+
+### 2. System Architecture
+
+#### 2.1 High-Level Architecture
+
+```
+┌───────────────────────────────────────────────────────┐
+│                Wardog Cybersecurity Suite             │
+├───────────┬───────────┬────────────┬─────────────────┤
+│  Threat   │ Network   │ Endpoint   │   Security      │
+│ Detection │ Security  │ Protection │  Management     │
+└───────────┴───────────┴────────────┴─────────────────┘
+        │           │          │            │
+        v           v          v            v
+┌──────────────────────────────────────────────────────┐
+│                   Core Services                       │
+├──────────┬───────────┬──────────┬───────────────────┤
+│ Analytics│ Database  │ Update   │  Authentication   │
+│  Engine  │  Service  │  Server  │     Service       │
+└──────────┴───────────┴──────────┴───────────────────┘
+        │           │          │            │
+        v           v          v            v
+┌──────────────────────────────────────────────────────┐
+│              Cross-Platform Foundation               │
+├──────────┬────────────┬──────────┬──────────────────┤
+│ Windows  │   Linux    │  macOS   │  Containerized   │
+│  Client  │   Client   │  Client  │   Deployment     │
+└──────────┴────────────┴──────────┴──────────────────┘
+```
+
+#### 2.2 Key Components
+
+1. **Core Engine** - C++ based central processing unit
+2. **User Interface** - Electron-based front-end for cross-platform compatibility
+3. **Database Layer** - Encrypted SQLite for local storage, PostgreSQL for enterprise deployments
+4. **API Services** - RESTful APIs for module communication
+5. **Update System** - Secure, automated update framework
+6. **Reporting System** - Comprehensive logging and reporting capabilities
+
+### 3. Module Specifications
+
+#### 3.1 Threat Detection Module
+
+##### 3.1.1 Components
+- **Signature-Based Detection Engine**
+  - Custom signature format and processing
+  - Regular expression pattern matching
+  - Binary pattern analysis
+- **Behavioral Analysis System**
+  - Process monitoring
+  - System call analysis
+  - Anomaly detection algorithms
+- **Machine Learning Component**
+  - Feature extraction from endpoints
+  - Classification models (Random Forest, Neural Networks)
+  - Continuous model improvement framework
+
+##### 3.1.2 Technical Specifications
+```cpp
+// Core detection engine interface
+class IThreatDetectionEngine {
+public:
+    virtual bool initialize() = 0;
+    virtual DetectionResult analyzeFile(const std::string& filePath) = 0;
+    virtual DetectionResult analyzeMemory(void* memoryAddress, size_t size) = 0;
+    virtual DetectionResult analyzeProcess(uint32_t processId) = 0;
+    virtual bool loadSignatures(const std::string& signaturePath) = 0;
+    virtual bool updateSignatures() = 0;
+    virtual ~IThreatDetectionEngine() {}
+};
+
+// Implementation for signature-based detection
+class SignatureDetectionEngine : public IThreatDetectionEngine {
+private:
+    std::vector<Signature> signatures_;
+    DatabaseConnection dbConnection_;
+    
+public:
+    SignatureDetectionEngine();
+    bool initialize() override;
+    DetectionResult analyzeFile(const std::string& filePath) override;
+    // Other implementations...
+};
+```
+
+#### 3.2 Network Security Module
+
+##### 3.2.1 Components
+- **Packet Analysis Engine**
+  - Deep packet inspection
+  - Protocol analysis
+  - Traffic pattern recognition
+- **Firewall System**
+  - Stateful inspection
+  - Application-layer filtering
+  - Custom rule creation interface
+- **Intrusion Detection/Prevention System**
+  - Network anomaly detection
+  - Signature-based detection
+  - Automatic response actions
+
+##### 3.2.2 Technical Specifications
+```cpp
+// Network security manager
+class NetworkSecurityManager {
+private:
+    std::unique_ptr<PacketAnalyzer> packetAnalyzer_;
+    std::unique_ptr<FirewallEngine> firewallEngine_;
+    std::unique_ptr<IDSEngine> idsEngine_;
+    
+public:
+    NetworkSecurityManager();
+    bool initialize();
+    bool startMonitoring(const std::string& interface);
+    bool stopMonitoring();
+    FirewallRuleResult addFirewallRule(const FirewallRule& rule);
+    std::vector<NetworkThreat> getDetectedThreats();
+    bool generateNetworkReport(const std::string& outputPath);
+};
+
+// Packet capture and analysis
+class PacketAnalyzer {
+private:
+    pcap_t* pcapHandle_;
+    std::vector<ProtocolAnalyzer> protocolAnalyzers_;
+    
+public:
+    PacketAnalyzer();
+    bool initializeCapture(const std::string& interface);
+    void processPacket(const struct pcap_pkthdr* header, const u_char* packet);
+    // Additional methods...
+};
+```
+
+#### 3.3 Endpoint Protection Module
+
+##### 3.3.1 Components
+- **Real-time Protection Engine**
+  - File system monitoring
+  - Memory protection
+  - Registry protection
+- **Application Control**
+  - Whitelisting/blacklisting capabilities
+  - Software inventory management
+  - Application execution control
+- **Data Loss Prevention**
+  - Sensitive data identification
+  - Exfiltration prevention
+  - User behavior monitoring
+
+##### 3.3.2 Technical Specifications
+```cpp
+// Endpoint protection manager
+class EndpointProtectionManager {
+private:
+    std::unique_ptr<RealtimeProtection> realtimeProtection_;
+    std::unique_ptr<ApplicationControl> applicationControl_;
+    std::unique_ptr<DataLossPreventionEngine> dlpEngine_;
+    
+public:
+    EndpointProtectionManager();
+    bool initialize();
+    bool enableProtection();
+    bool disableProtection();
+    ApplicationControlResult controlApplication(const std::string& applicationPath, 
+                                              ApplicationAction action);
+    std::vector<EndpointThreat> getDetectedThreats();
+};
+
+// Real-time protection implementation
+class RealtimeProtection {
+private:
+    FileSystemMonitor fsMonitor_;
+    MemoryProtector memoryProtector_;
+    RegistryMonitor registryMonitor_;
+    
+public:
+    RealtimeProtection();
+    bool initialize();
+    bool startMonitoring();
+    bool stopMonitoring();
+    void onFileEvent(const FileEvent& event);
+    // Additional methods...
+};
+```
+
+#### 3.4 Security Management Module
+
+##### 3.4.1 Components
+- **Central Management Console**
+  - Policy management
+  - Deployment controls
+  - Remote administration
+- **Reporting & Analytics**
+  - Customizable dashboards
+  - Trend analysis
+  - Compliance reporting
+- **User & Role Management**
+  - Role-based access control
+  - Authentication integration
+  - Audit logging
+
+##### 3.4.2 Technical Specifications
+```cpp
+// Security management system
+class SecurityManagementSystem {
+private:
+    std::unique_ptr<PolicyManager> policyManager_;
+    std::unique_ptr<ReportingEngine> reportingEngine_;
+    std::unique_ptr<UserRoleManager> userRoleManager_;
+    
+public:
+    SecurityManagementSystem();
+    bool initialize();
+    PolicyResult applyPolicy(const SecurityPolicy& policy, 
+                            const std::vector<std::string>& targetSystems);
+    Report generateReport(ReportType type, const ReportParameters& params);
+    UserResult createUser(const UserInfo& userInfo);
+    // Additional methods...
+};
+
+// Policy management implementation
+class PolicyManager {
+private:
+    std::vector<SecurityPolicy> policies_;
+    DatabaseConnection dbConnection_;
+    
+public:
+    PolicyManager();
+    bool initialize();
+    PolicyResult createPolicy(const SecurityPolicy& policy);
+    PolicyResult updatePolicy(const SecurityPolicy& policy);
+    bool deployPolicy(const SecurityPolicy& policy, 
+                     const std::vector<std::string>& targets);
+    // Additional methods...
+};
+```
+
+### 4. Cross-Platform Implementation
+
+#### 4.1 Technology Stack
+
+| Component | Technology | Justification |
+|-----------|------------|--------------|
+| Core Engine | C++17/20 | Performance, cross-platform compatibility |
+| User Interface | Electron, React | Modern UI, cross-platform support |
+| Database | SQLite, PostgreSQL | Local & enterprise flexibility |
+| API Layer | REST, gRPC | Modern connectivity, efficient binary communication |
+| Deployment | Native installers, Docker | Flexible deployment options |
+
+#### 4.2 Platform-Specific Implementations
+
+##### 4.2.1 Windows
+- Native kernel driver integration
+- Windows Security API integration
+- ETW (Event Tracing for Windows) integration
+- .NET framework integration for enterprise environments
+
+##### 4.2.2 Linux
+- Linux Security Modules (LSM) integration
+- eBPF-based monitoring
+- SELinux/AppArmor integration
+- Systemd service management
+
+##### 4.2.3 macOS
+- EndpointSecurity framework integration
+- Network Extension framework
+- System Extension integration
+- Transparency, Consent, and Control (TCC) compliance
+
+#### 4.3 Integration Points
+
+```mermaid
+graph TD
+    A[Core Engine] --> B[Windows Integration]
+    A --> C[Linux Integration]
+    A --> D[macOS Integration]
+    B --> B1[Windows Kernel Driver]
+    B --> B2[Windows Security API]
+    C --> C1[Linux Security Modules]
+    C --> C2[eBPF Subsystem]
+    D --> D1[EndpointSecurity]
+    D --> D2[Network Extension]
+    
+    A --> E[Shared Components]
+    E --> E1[Configuration System]
+    E --> E2[Update System]
+    E --> E3[Reporting Engine]
+```
+
+### 5. Database Schema
+
+#### 5.1 Core Tables
+
+```sql
+-- Threat detection database
+CREATE TABLE detected_threats (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP NOT NULL,
+    threat_type VARCHAR(50) NOT NULL,
+    threat_name VARCHAR(100) NOT NULL,
+    severity INTEGER NOT NULL,
+    file_path VARCHAR(255),
+    process_id INTEGER,
+    user_id VARCHAR(100),
+    status VARCHAR(50) NOT NULL,
+    remediation_action VARCHAR(100),
+    remediation_result VARCHAR(50),
+    hash_value VARCHAR(64)
+);
+
+-- Network security database
+CREATE TABLE network_events (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP NOT NULL,
+    source_ip VARCHAR(45) NOT NULL,
+    destination_ip VARCHAR(45) NOT NULL,
+    source_port INTEGER,
+    destination_port INTEGER,
+    protocol VARCHAR(20),
+    bytes_transferred BIGINT,
+    packet_count INTEGER,
+    rule_triggered VARCHAR(100),
+    action_taken VARCHAR(50),
+    severity INTEGER
+);
+
+-- Endpoint protection database
+CREATE TABLE application_control (
+    id SERIAL PRIMARY KEY,
+    application_path VARCHAR(255) NOT NULL,
+    application_name VARCHAR(100) NOT NULL,
+    hash_value VARCHAR(64) NOT NULL,
+    control_type VARCHAR(50) NOT NULL,
+    approval_status VARCHAR(50) NOT NULL,
+    approval_date TIMESTAMP,
+    approved_by VARCHAR(100),
+    notes TEXT
+);
+
+-- Security management database
+CREATE TABLE security_policies (
+    id SERIAL PRIMARY KEY,
+    policy_name VARCHAR(100) NOT NULL,
+    policy_type VARCHAR(50) NOT NULL,
+    policy_data JSONB NOT NULL,
+    created_date TIMESTAMP NOT NULL,
+    created_by VARCHAR(100) NOT NULL,
+    last_modified TIMESTAMP,
+    version INTEGER NOT NULL,
+    is_active BOOLEAN NOT NULL
+);
+```
+
+### 6. API Specifications
+
+#### 6.1 RESTful API Endpoints
+
+```yaml
+# Threat Detection API
+/api/v1/threats:
+  get:
+    description: Get list of detected threats
+    parameters:
+      - name: from
+        in: query
+        type: string
+        format: date-time
+      - name: to
+        in: query
+        type: string
+        format: date-time
+      - name: severity
+        in: query
+        type: integer
+    responses:
+      200:
+        description: List of threats
+  post:
+    description: Report a new threat
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ThreatReport'
+    responses:
+      201:
+        description: Threat reported
+
+# Network Security API
+/api/v1/network/rules:
+  get:
+    description: Get firewall rules
+  post:
+    description: Create firewall rule
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/FirewallRule'
+
+# Endpoint Protection API
+/api/v1/endpoint/applications:
+  get:
+    description: Get controlled applications
+  post:
+    description: Add application control rule
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApplicationControlRule'
+
+# Security Management API
+/api/v1/management/policies:
+  get:
+    description: Get security policies
+  post:
+    description: Create security policy
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/SecurityPolicy'
+```
+
+### 7. User Interface Design
+
+#### 7.1 Dashboard
+
+The main dashboard will provide an overview of the security status with the following components:
+- Threat summary cards
+- Security posture indicators
+- Recent activity timeline
+- Resource utilization graphs
+- Quick action buttons
+
+#### 7.2 Module Interfaces
+
+Each module will have a dedicated interface:
+
+1. **Threat Detection Interface**
+   - Threat list with filtering options
+   - Detailed threat information
+   - Remediation controls
+   - Scan configuration
+
+2. **Network Security Interface**
+   - Network traffic visualization
+   - Firewall rule management
+   - IDS/IPS controls
+   - Network topology map
+
+3. **Endpoint Protection Interface**
+   - Endpoint inventory
+   - Protection status indicators
+   - Application control management
+   - Data loss prevention controls
+
+4. **Security Management Interface**
+   - Policy management
+   - User and role administration
+   - Reporting and analytics
+   - System configuration
+
+#### 7.3 Responsive Design
+
+The UI will implement responsive design principles to ensure usability across:
+- Desktop workstations
+- Security operations centers (large displays)
+- Mobile devices (for on-the-go monitoring)
+- Tablet devices
+
+### 8. Deployment Strategy
+
+#### 8.1 Standalone Application Packaging
+
+The application will be packaged for standalone deployment with the following components:
+
+1. **Windows Deployment**
+   - MSI installer package
+   - Silent installation options
+   - Group Policy deployment support
+   - Windows service components
+
+2. **Linux Deployment**
+   - DEB and RPM packages
+   - AppImage for universal installation
+   - Systemd service integration
+   - Container deployment option
+
+3. **macOS Deployment**
+   - Signed DMG installer
+   - Package installer (PKG)
+   - LaunchAgent/LaunchDaemon integration
+   - App Store distribution option
+
+#### 8.2 Enterprise Deployment
+
+For enterprise environments, additional deployment options will be provided:
+
+1. **Client-Server Architecture**
+   - Centralized management server
+   - Lightweight client agents
+   - Server clustering for high availability
+
+2. **Cloud Deployment**
+   - AWS, Azure, and GCP templates
+   - Kubernetes orchestration
+   - Hybrid deployment support
+
+3. **Virtual Appliance**
+   - Pre-configured OVA/OVF images
+   - Hardened virtual appliance
+   - Quick deployment option
+
+### 9. Security Measures
+
+#### 9.1 Internal Security
+
+The Wardog Cybersecurity Suite will implement strong internal security measures:
+
+1. **Data Protection**
+   - End-to-end encryption for all stored data
+   - Secure key management
+   - Data minimization principles
+
+2. **Authentication & Authorization**
+   - Multi-factor authentication
+   - Role-based access control
+   - Session management and timeout controls
+
+3. **Supply Chain Security**
+   - Secure development practices
+   - Dependency verification
+   - Signed components and updates
+
+#### 9.2 Compliance Features
+
+The suite will include features to support compliance with:
+- GDPR
+- HIPAA
+- PCI DSS
+- NIST Cybersecurity Framework
+- ISO 27001
+- SOC 2
+
+### 10. Development Roadmap
+
+#### 10.1 Phase 1: Core Development (3 months)
+- Core engine implementation
+- Basic UI framework
+- Essential detection capabilities
+- Cross-platform foundation
+
+#### 10.2 Phase 2: Module Implementation (4 months)
+- Complete all four main modules
+- Database implementation
+- API layer development
+- Basic reporting system
+
+#### 10.3 Phase 3: Integration & Testing (2 months)
+- Cross-platform integration
+- Performance optimization
+- Security testing
+- Usability testing
+
+#### 10.4 Phase 4: Deployment & Documentation (1 month)
+- Installer creation
+- Documentation completion
+- Final QA
+- Release preparation
+
+### 11. Code Examples
+
+#### 11.1 Core Engine Initialization
+
+```cpp
+// Main application initialization
+bool WardogSecuritySuite::initialize() {
+    // Initialize logging system
+    if (!LogSystem::getInstance().initialize("wardog_security.log", 
+                                           LogLevel::INFO)) {
+        std::cerr << "Failed to initialize logging system" << std::endl;
+        return false;
+    }
+    
+    LOG_INFO("Initializing Wardog Security Suite v1.0.0");
+    
+    // Initialize configuration system
+    if (!ConfigSystem::getInstance().loadConfiguration("config.json")) {
+        LOG_ERROR("Failed to load configuration");
+        return false;
+    }
+    
+    // Initialize database connection
+    DatabaseParams dbParams;
+    dbParams.type = ConfigSystem::getInstance().getDatabaseType();
+    dbParams.path = ConfigSystem::getInstance().getDatabasePath();
+    dbParams.username = ConfigSystem::getInstance().getDatabaseUsername();
+    dbParams.password = ConfigSystem::getInstance().getDatabasePassword();
+    
+    if (!DatabaseManager::getInstance().initialize(dbParams)) {
+        LOG_ERROR("Failed to initialize database");
+        return false;
+    }
+    
+    // Initialize modules
+    threatDetection_ = std::make_unique<ThreatDetectionModule>();
+    networkSecurity_ = std::make_unique<NetworkSecurityModule>();
+    endpointProtection_ = std::make_unique<EndpointProtectionModule>();
+    securityManagement_ = std::make_unique<SecurityManagementModule>();
+    
+    if (!threatDetection_->initialize()) {
+        LOG_ERROR("Failed to initialize threat detection module");
+        return false;
+    }
+    
+    if (!networkSecurity_->initialize()) {
+        LOG_ERROR("Failed to initialize network security module");
+        return false;
+    }
+    
+    if (!endpointProtection_->initialize()) {
+        LOG_ERROR("Failed to initialize endpoint protection module");
+        return false;
+    }
+    
+    if (!securityManagement_->initialize()) {
+        LOG_ERROR("Failed to initialize security management module");
+        return false;
+    }
+    
+    // Initialize UI system
+    if (!UISystem::getInstance().initialize()) {
+        LOG_ERROR("Failed to initialize UI system");
+        return false;
+    }
+    
+    LOG_INFO("Wardog Security Suite initialization completed successfully");
+    return true;
+}
+```
+
+#### 11.2 Threat Detection Implementation
+
+```cpp
+// File scanning implementation
+DetectionResult SignatureDetectionEngine::analyzeFile(const std::string& filePath) {
+    LOG_DEBUG("Scanning file: " + filePath);
+    
+    DetectionResult result;
+    result.filePath = filePath;
+    result.timestamp = std::chrono::system_clock::now();
+    
+    // Get file hash
+    std::string fileHash = HashUtility::calculateSHA256(filePath);
+    result.fileHash = fileHash;
+    
+    // Check cache for previous scan results
+    if (scanCache_.hasResult(fileHash)) {
+        LOG_DEBUG("Found cached result for " + filePath);
+        return scanCache_.getResult(fileHash);
+    }
+    
+    // Open file
+    std::ifstream file(filePath, std::ios::binary);
+    if (!file.is_open()) {
+        LOG_ERROR("Failed to open file: " + filePath);
+        result.status = DetectionStatus::ERROR;
+        result.errorMessage = "Failed to open file";
+        return result;
+    }
+    
+    // Read file content
+    std::vector<uint8_t> fileContent(
+        (std::istreambuf_iterator<char>(file)),
+        std::istreambuf_iterator<char>()
+    );
+    
+    // Check file against signatures
+    for (const auto& signature : signatures_) {
+        if (signature.matches(fileContent)) {
+            LOG_INFO("Detected threat in file: " + filePath + 
+                    " (Threat: " + signature.getName() + ")");
+            
+            result.status = DetectionStatus::THREAT_DETECTED;
+            result.threatName = signature.getName();
+            result.threatType = signature.getType();
+            result.severity = signature.getSeverity();
+            
+            // Store result in database
+            dbConnection_.storeThreatDetection(result);
+            
+            // Cache result
+            scanCache_.storeResult(fileHash, result);
+            
+            return result;
+        }
+    }
+    
+    // No threats found
+    LOG_DEBUG("No threats found in file: " + filePath);
+    result.status = DetectionStatus::CLEAN;
+    
+    // Cache result
+    scanCache_.storeResult(fileHash, result);
+    
+    return result;
+}
+```
+
+#### 11.3 Network Security Implementation
+
+```cpp
+// Packet analysis implementation
+void PacketAnalyzer::processPacket(const struct pcap_pkthdr* header, 
+                                 const u_char* packet) {
+    LOG_DEBUG("Processing packet of size: " + std::to_string(header->len));
+    
+    // Create packet info structure
+    PacketInfo packetInfo;
+    packetInfo.timestamp = header->ts;
+    packetInfo.packetSize = header->len;
+    packetInfo.captureSize = header->caplen;
+    
+    // Parse Ethernet header
+    auto* ethHeader = reinterpret_cast<const struct ether_header*>(packet);
+    packetInfo.etherType = ntohs(ethHeader->ether_type);
+    
+    // Handle different packet types
+    switch (packetInfo.etherType) {
+        case ETHERTYPE_IP: {
+            // Parse IP header
+            const u_char* ipPacket = packet + sizeof(struct ether_header);
+            auto* ipHeader = reinterpret_cast<const struct ip*>(ipPacket);
+            
+            packetInfo.sourceIP = std::string(inet_ntoa(ipHeader->ip_src));
+            packetInfo.destinationIP = std::string(inet_ntoa(ipHeader->ip_dst));
+            packetInfo.protocol = ipHeader->ip_p;
+            
+            // Parse transport layer
+            const u_char* transportLayer = ipPacket + (ipHeader->ip_hl * 4);
+            
+            if (packetInfo.protocol == IPPROTO_TCP) {
+                // Parse TCP header
+                auto* tcpHeader = reinterpret_cast<const struct tcphdr*>(transportLayer);
+                packetInfo.sourcePort = ntohs(tcpHeader->th_sport);
+                packetInfo.destinationPort = ntohs(tcpHeader->th_dport);
+                
+                // Calculate payload offset
+                unsigned int tcpHeaderLength = tcpHeader->th_off * 4;
+                const u_char* payload = transportLayer + tcpHeaderLength;
+                size_t payloadLength = ntohs(ipHeader->ip_len) - 
+                                      (ipHeader->ip_hl * 4) - tcpHeaderLength;
+                
+                packetInfo.payload = std::vector<uint8_t>(
+                    payload, payload + payloadLength
+                );
+                
+                // Check against TCP-specific rules
+                for (auto& analyzer : protocolAnalyzers_) {
+                    if (analyzer.getProtocol() == Protocol::TCP) {
+                        analyzer.analyzePacket(packetInfo);
+                    }
+                }
+            } 
+            else if (packetInfo.protocol == IPPROTO_UDP) {
+                // Parse UDP header
+                auto* udpHeader = reinterpret_cast<const struct udphdr*>(transportLayer);
+                packetInfo.sourcePort = ntohs(udpHeader->uh_sport);
+                packetInfo.destinationPort = ntohs(udpHeader->uh_dport);
+                
+                // Calculate payload offset
+                const u_char* payload = transportLayer + sizeof(struct udphdr);
+                size_t payloadLength = ntohs(udpHeader->uh_ulen) - sizeof(struct udphdr);
+                
+                packetInfo.payload = std::vector<uint8_t>(
+                    payload, payload + payloadLength
+                );
+                
+                // Check against UDP-specific rules
+                for (auto& analyzer : protocolAnalyzers_) {
+                    if (analyzer.getProtocol() == Protocol::UDP) {
+                        analyzer.analyzePacket(packetInfo);
+                    }
+                }
+            }
+            
+            // Apply firewall rules
+            FirewallResult result = firewallEngine_->evaluatePacket(packetInfo);
+            
+            if (result.action == FirewallAction::BLOCK) {
+                LOG_INFO("Blocked packet from " + packetInfo.sourceIP + 
+                        " to " + packetInfo.destinationIP + 
+                        " (Rule: " + result.ruleName + ")");
+                
+                // Log blocked connection
+                NetworkEvent event;
+                event.timestamp = std::chrono::system_clock::now();
+                event.sourceIP = packetInfo.sourceIP;
+                event.destinationIP = packetInfo.destinationIP;
+                event.sourcePort = packetInfo.sourcePort;
+                event.destinationPort = packetInfo.destinationPort;
+                event.protocol = packetInfo.protocol;
+                event.action = "BLOCKED";
+                event.ruleName = result.ruleName;
+                
+                dbConnection_.logNetworkEvent(event);
+            }
+            
+            break;
+        }
+        case ETHERTYPE_IPV6:
+            // Handle IPv6 packets
+            // Similar structure as IPv4 handling
+            break;
+        case ETHERTYPE_ARP:
+            // Handle ARP packets
+            break;
+        default:
+            LOG_DEBUG("Unsupported EtherType: " + 
+                    std::to_string(packetInfo.etherType));
+            break;
+    }
+    
+    // Apply IDS rules to all packets
+    IDSResult idsResult = idsEngine_->analyzePacket(packetInfo);
+    
+    if (idsResult.threatDetected) {
+        LOG_WARNING("IDS detected threat: " + idsResult.threatName + 
+                   " (Source: " + packetInfo.sourceIP + ")");
+        
+        // Log IDS alert
+        NetworkThreat threat;
+        threat.timestamp = std::chrono::system_clock::now();
+        threat.sourceIP = packetInfo.sourceIP;
+        threat.destinationIP = packetInfo.destinationIP;
+        threat.threatName = idsResult.threatName;
+        threat.severity = idsResult.severity;
+        threat.description = idsResult.description;
+        
+        dbConnection_.logNetworkThreat(threat);
+        
+        // Execute automatic response if configured
+        if (idsEngine_->isAutomaticResponseEnabled()) {
+            idsEngine_->executeResponse(idsResult, packetInfo);
+        }
+    }
+}
+```
+
+#### 11.4 React Front-End Implementation
+
+```jsx
+// Dashboard component
+import React, { useState, useEffect } from 'react';
+import { 
+  Container, 
+  Grid, 
+  Card, 
+  CardHeader, 
+  CardContent,
+  Typography,
+  Button,
+  CircularProgress
+} from '@material-ui/core';
+import { Line, Bar, Pie } from 'react-chartjs-2';
+import { fetchDashboardData, fetchThreatStats } from '../api/dashboard';
+import ThreatSummary from '../components/ThreatSummary';
+import SystemHealth from '../components/SystemHealth';
+import RecentEvents from '../components/RecentEvents';
+
+const Dashboard = () => {
+  const [loading, setLoading] = useState(true);
+  const [dashboardData, setDashboardData] = useState(null);
+  const [threatStats, setThreatStats] = useState(null);
+  const [timeRange, setTimeRange] = useState('24h');
+  
+  useEffect(() => {
+    const loadDashboardData = async () => {
+      setLoading(true);
+      try {
+        const data = await fetchDashboardData(timeRange);
+        setDashboardData(data);
+        
+        const stats = await fetchThreatStats(timeRange);
+        setThreatStats(stats);
+      } catch (error) {
+        console.error('Failed to load dashboard data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadDashboardData();
+    
+    // Set up refresh interval
+    const intervalId = setInterval(loadDashboardData, 30000);
+    
+    return () => clearInterval(intervalId);
+  }, [timeRange]);
+  
+  const handleTimeRangeChange = (range) => {
+    setTimeRange(range);
+  };
+  
+  if (loading && !dashboardData) {
+    return (
+      <Container style={{ textAlign: 'center', marginTop: '2rem' }}>
+        <CircularProgress />
+        <Typography variant="h6">Loading dashboard data...</Typography>
+      </Container>
+    );
+  }
+  
+  return (
+    <Container maxWidth="lg">
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <Typography variant="h4">Security Dashboard</Typography>
+          <div>
+            <Button 
+              variant={timeRange === '24h' ? 'contained' : 'outlined'} 
+              color="primary"
+              onClick={() => handleTimeRangeChange('24h')}
+            >
+              24 Hours
+            </Button>
+            <Button 
+              variant={timeRange === '7d' ? 'contained' : 'outlined'} 
+              color="primary"
+              onClick={() => handleTimeRangeChange('7d')}
+            >
+              7 Days
+            </Button>
+            <Button 
+              variant={timeRange === '30d' ? 'contained' : 'outlined'} 
+              color="primary"
+              onClick={() => handleTimeRangeChange('30d')}
+            >
+              30 Days
+            </Button>
+          </div>
+        </Grid>
+        
+        {/* Threat Summary Cards */}
+        <Grid item xs={12} md={6}>
+          <ThreatSummary threatStats={threatStats} />
+        </Grid>
+        
+        {/* System Health */}
+        <Grid item xs={12} md={6}>
+          <SystemHealth healthData={dashboardData?.systemHealth} />
+        </Grid>
+        
+        {/* Threat Trend Chart */}
+        <Grid item xs={12}>
+          <Card>
+            <CardHeader title="Threat Detection Trend" />
+            <CardContent>
+              <Line 
+                data={dashboardData?.threatTrend}
+                options={{
+                  responsive: true,
+                  maintainAspectRatio: false,
+                  scales: {
+                    y: {

@@ -1,0 +1,1 @@
+ssh user@your-host '~/wardog/activate_perimeter.sh'

@@ -1,0 +1,10 @@
+Filesystem                                                                                           Size    Used   Avail Capacity iused ifree %iused  Mounted on
+com.apple.os.update-0E9D27C2C7619B07A59EF5D97B36F2E33B92435FB10E23C75ABFEDDAB9A69CED@/dev/disk1s1    128G   7070M   1306M    85%    388k   13M    3%   /
+devfs                                                                                                 48k     48k      0B   100%     162     0  100%   /dev
+/dev/disk1s6                                                                                         128G   4526M   1306M    78%     123   13M    0%   /private/preboot
+/dev/disk1s3                                                                                          10M   6312k   4174k    61%       1   41k    0%   /private/xarts
+/dev/disk1s2                                                                                         128G     31G   1306M    96%    463k   13M    4%   /private/var
+/dev/disk1s4                                                                                          10M   4547k   5939k    44%       6   58k    0%   /private/var/wireless/baseband_data
+/dev/disk1s7                                                                                         128G     44M   1306M     4%     705   13M    0%   /private/var/MobileSoftwareUpdate
+/dev/disk1s5                                                                                         112M     40M     72M    36%     126  708k    0%   /private/var/hardware
+/dev/disk1s8                                                                                         128G     84G   1306M    99%    298k   13M    2%   /private/var/mobile

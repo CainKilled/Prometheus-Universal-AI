@@ -1,0 +1,1199 @@
+{
+  "status" : {
+    "ApplePay" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "CBD451C7-CD0B-4AA2-8A2B-153D676BF9EE" : 4
+      },
+      "currentClassA" : "4459A468-3D51-486E-BD58-EA2A1D02208F",
+      "currentClassAPtr" : "4459A468-3D51-486E-BD58-EA2A1D02208F",
+      "currentClassC" : "CBD451C7-CD0B-4AA2-8A2B-153D676BF9EE",
+      "currentClassCPtr" : "CBD451C7-CD0B-4AA2-8A2B-153D676BF9EE",
+      "currentTLK" : "CED0CCFD-7025-4548-BF25-DAD3F5EE5217",
+      "currentTLKPtr" : "CED0CCFD-7025-4548-BF25-DAD3F5EE5217",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,ApplePay): kSOSCCInCircle CliqueStatusIn process_key_hierarchy CED0CCFD-7025-4548-BF25-DAD3F5EE5217 4459A468-3D51-486E-BD58-EA2A1D02208F CBD451C7-CD0B-4AA2-8A2B-153D676BF9EE upd:2025-03-30 08:08:44 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,ApplePay): kSOSCCError CliqueStatusIn ready CED0CCFD-7025-4548-BF25-DAD3F5EE5217 4459A468-3D51-486E-BD58-EA2A1D02208F CBD451C7-CD0B-4AA2-8A2B-153D676BF9EE upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.666-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.224-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.675-0500 - ready:1",
+        "2025-04-08T17:44:00.291-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.309-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: ApplePay",
+        "attr: zonesize: 4"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:05 +0000>",
+        "<CKKSTLKShare[](CED0CCFD-7025-4548-BF25-DAD3F5EE5217): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:47 +0000>"
+      ],
+      "view" : "ApplePay",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Applications" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "27BFF9DB-3655-4A6E-AFD7-FA03FEFBEFB9" : 3,
+        "FDDA718E-B545-481B-8FFC-11AC1CC229A0" : 31
+      },
+      "currentClassA" : "27BFF9DB-3655-4A6E-AFD7-FA03FEFBEFB9",
+      "currentClassAPtr" : "27BFF9DB-3655-4A6E-AFD7-FA03FEFBEFB9",
+      "currentClassC" : "FDDA718E-B545-481B-8FFC-11AC1CC229A0",
+      "currentClassCPtr" : "FDDA718E-B545-481B-8FFC-11AC1CC229A0",
+      "currentTLK" : "4686D02E-F6BF-4720-9F25-7001AC3494A9",
+      "currentTLKPtr" : "4686D02E-F6BF-4720-9F25-7001AC3494A9",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Applications): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 4686D02E-F6BF-4720-9F25-7001AC3494A9 27BFF9DB-3655-4A6E-AFD7-FA03FEFBEFB9 FDDA718E-B545-481B-8FFC-11AC1CC229A0 upd:2025-03-30 08:08:44 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-09 00:00:00 +0000,Applications): kSOSCCError CliqueStatusIn ready 4686D02E-F6BF-4720-9F25-7001AC3494A9 27BFF9DB-3655-4A6E-AFD7-FA03FEFBEFB9 FDDA718E-B545-481B-8FFC-11AC1CC229A0 upd:2025-04-09 18:29:43 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.669-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.228-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.672-0500 - ready:1",
+        "2025-04-08T17:44:00.290-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.308-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Applications",
+        "attr: zonesize: 30"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](4686D02E-F6BF-4720-9F25-7001AC3494A9): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](4686D02E-F6BF-4720-9F25-7001AC3494A9): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](4686D02E-F6BF-4720-9F25-7001AC3494A9): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](4686D02E-F6BF-4720-9F25-7001AC3494A9): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](4686D02E-F6BF-4720-9F25-7001AC3494A9): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](4686D02E-F6BF-4720-9F25-7001AC3494A9): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "Applications",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "AutoUnlock" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "8D442C94-BF66-4FAD-8ED3-B1DAB4F3E81B" : 3
+      },
+      "currentClassA" : "9A07BD16-C886-4D61-9360-8CCED693936D",
+      "currentClassAPtr" : "9A07BD16-C886-4D61-9360-8CCED693936D",
+      "currentClassC" : "8D442C94-BF66-4FAD-8ED3-B1DAB4F3E81B",
+      "currentClassCPtr" : "8D442C94-BF66-4FAD-8ED3-B1DAB4F3E81B",
+      "currentTLK" : "08F8C808-3AF1-44BA-9329-F2D7BC3A56DF",
+      "currentTLKPtr" : "08F8C808-3AF1-44BA-9329-F2D7BC3A56DF",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,AutoUnlock): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 08F8C808-3AF1-44BA-9329-F2D7BC3A56DF 9A07BD16-C886-4D61-9360-8CCED693936D 8D442C94-BF66-4FAD-8ED3-B1DAB4F3E81B upd:2025-03-30 08:08:45 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,AutoUnlock): kSOSCCError CliqueStatusIn ready 08F8C808-3AF1-44BA-9329-F2D7BC3A56DF 9A07BD16-C886-4D61-9360-8CCED693936D 8D442C94-BF66-4FAD-8ED3-B1DAB4F3E81B upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.652-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.205-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.679-0500 - ready:1",
+        "2025-04-08T17:44:00.292-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.309-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: AutoUnlock",
+        "attr: zonesize: 3"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:49 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:05 +0000>",
+        "<CKKSTLKShare[](08F8C808-3AF1-44BA-9329-F2D7BC3A56DF): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:47 +0000>"
+      ],
+      "view" : "AutoUnlock",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Backstop" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "1D3FBEBA-111C-41FA-B709-D669682022F0" : 10,
+        "B3F44F72-2984-43FE-B9F6-DDC8FB89FE88" : 22
+      },
+      "currentClassA" : "B3F44F72-2984-43FE-B9F6-DDC8FB89FE88",
+      "currentClassAPtr" : "B3F44F72-2984-43FE-B9F6-DDC8FB89FE88",
+      "currentClassC" : "1D3FBEBA-111C-41FA-B709-D669682022F0",
+      "currentClassCPtr" : "1D3FBEBA-111C-41FA-B709-D669682022F0",
+      "currentTLK" : "8D83D534-9B0E-43E1-A246-3CBD7C2811F5",
+      "currentTLKPtr" : "8D83D534-9B0E-43E1-A246-3CBD7C2811F5",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Backstop): kSOSCCInCircle CliqueStatusIn ready 8D83D534-9B0E-43E1-A246-3CBD7C2811F5 B3F44F72-2984-43FE-B9F6-DDC8FB89FE88 1D3FBEBA-111C-41FA-B709-D669682022F0 upd:2025-03-30 08:08:43 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-09 00:00:00 +0000,Backstop): kSOSCCError CliqueStatusIn ready 8D83D534-9B0E-43E1-A246-3CBD7C2811F5 B3F44F72-2984-43FE-B9F6-DDC8FB89FE88 1D3FBEBA-111C-41FA-B709-D669682022F0 upd:2025-04-09 19:53:04 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.668-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.227-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.632-0500 - ready:1",
+        "2025-04-08T17:44:00.280-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.306-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Backstop",
+        "attr: zonesize: 30"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:27 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](8D83D534-9B0E-43E1-A246-3CBD7C2811F5): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>"
+      ],
+      "view" : "Backstop",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Contacts" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "996FB732-D68B-487B-AB17-9C70ABBF557A" : 1
+      },
+      "currentClassA" : "996FB732-D68B-487B-AB17-9C70ABBF557A",
+      "currentClassAPtr" : "996FB732-D68B-487B-AB17-9C70ABBF557A",
+      "currentClassC" : "39F66526-CB27-44D2-9A79-14F7826FB656",
+      "currentClassCPtr" : "39F66526-CB27-44D2-9A79-14F7826FB656",
+      "currentTLK" : "80B05ACD-5182-4897-837F-C4C455187ED9",
+      "currentTLKPtr" : "80B05ACD-5182-4897-837F-C4C455187ED9",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Contacts): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 80B05ACD-5182-4897-837F-C4C455187ED9 996FB732-D68B-487B-AB17-9C70ABBF557A 39F66526-CB27-44D2-9A79-14F7826FB656 upd:2025-03-30 08:08:45 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Contacts): kSOSCCError CliqueStatusIn ready 80B05ACD-5182-4897-837F-C4C455187ED9 996FB732-D68B-487B-AB17-9C70ABBF557A 39F66526-CB27-44D2-9A79-14F7826FB656 upd:2025-04-07 18:15:33 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.658-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.212-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.690-0500 - ready:1",
+        "2025-04-08T17:44:00.295-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.310-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Contacts",
+        "attr: zonesize: 1"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:29 +0000>",
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](80B05ACD-5182-4897-837F-C4C455187ED9): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "Contacts",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "CreditCards" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+
+      },
+      "currentClassA" : "7B30643B-28B0-4D86-8935-6BE074C124F0",
+      "currentClassAPtr" : "7B30643B-28B0-4D86-8935-6BE074C124F0",
+      "currentClassC" : "318E9577-CD77-4A64-A8EC-8C63218E9799",
+      "currentClassCPtr" : "318E9577-CD77-4A64-A8EC-8C63218E9799",
+      "currentTLK" : "22169FB2-932E-4E8E-8F90-880D965E836A",
+      "currentTLKPtr" : "22169FB2-932E-4E8E-8F90-880D965E836A",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,CreditCards): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 22169FB2-932E-4E8E-8F90-880D965E836A 7B30643B-28B0-4D86-8935-6BE074C124F0 318E9577-CD77-4A64-A8EC-8C63218E9799 upd:2025-03-30 08:08:48 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,CreditCards): kSOSCCError CliqueStatusIn ready 22169FB2-932E-4E8E-8F90-880D965E836A 7B30643B-28B0-4D86-8935-6BE074C124F0 318E9577-CD77-4A64-A8EC-8C63218E9799 upd:2025-04-07 18:15:35 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.663-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.219-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.717-0500 - ready:1",
+        "2025-04-08T17:44:00.304-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.312-0500 - incoming-processed:1",
+        "attr: view: CreditCards"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](22169FB2-932E-4E8E-8F90-880D965E836A): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:30 +0000>",
+        "<CKKSTLKShare[](22169FB2-932E-4E8E-8F90-880D965E836A): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](22169FB2-932E-4E8E-8F90-880D965E836A): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](22169FB2-932E-4E8E-8F90-880D965E836A): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](22169FB2-932E-4E8E-8F90-880D965E836A): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](22169FB2-932E-4E8E-8F90-880D965E836A): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "CreditCards",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "DevicePairing" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+
+      },
+      "currentClassA" : "60CCAEC6-CB83-4F70-8403-1A29B7199C24",
+      "currentClassAPtr" : "60CCAEC6-CB83-4F70-8403-1A29B7199C24",
+      "currentClassC" : "5506046E-C9AE-4C85-858D-78A1A728A6CB",
+      "currentClassCPtr" : "5506046E-C9AE-4C85-858D-78A1A728A6CB",
+      "currentTLK" : "A80E4F1C-3B5E-4649-97C9-34B6F568EFF2",
+      "currentTLKPtr" : "A80E4F1C-3B5E-4649-97C9-34B6F568EFF2",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,DevicePairing): kSOSCCInCircle CliqueStatusIn process_key_hierarchy A80E4F1C-3B5E-4649-97C9-34B6F568EFF2 60CCAEC6-CB83-4F70-8403-1A29B7199C24 5506046E-C9AE-4C85-858D-78A1A728A6CB upd:2025-03-30 08:08:46 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,DevicePairing): kSOSCCError CliqueStatusIn ready A80E4F1C-3B5E-4649-97C9-34B6F568EFF2 60CCAEC6-CB83-4F70-8403-1A29B7199C24 5506046E-C9AE-4C85-858D-78A1A728A6CB upd:2025-04-07 18:15:33 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.671-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.229-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.696-0500 - ready:1",
+        "2025-04-08T17:44:00.297-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.310-0500 - incoming-processed:1",
+        "attr: view: DevicePairing"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](A80E4F1C-3B5E-4649-97C9-34B6F568EFF2): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:29 +0000>",
+        "<CKKSTLKShare[](A80E4F1C-3B5E-4649-97C9-34B6F568EFF2): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](A80E4F1C-3B5E-4649-97C9-34B6F568EFF2): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](A80E4F1C-3B5E-4649-97C9-34B6F568EFF2): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](A80E4F1C-3B5E-4649-97C9-34B6F568EFF2): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](A80E4F1C-3B5E-4649-97C9-34B6F568EFF2): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "DevicePairing",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Engram" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "832EFDED-1BE4-4994-A9CE-AAE1ECD5E0E4" : 5
+      },
+      "currentClassA" : "D3519799-DAD7-4F36-9BC9-E65F1984DC7A",
+      "currentClassAPtr" : "D3519799-DAD7-4F36-9BC9-E65F1984DC7A",
+      "currentClassC" : "832EFDED-1BE4-4994-A9CE-AAE1ECD5E0E4",
+      "currentClassCPtr" : "832EFDED-1BE4-4994-A9CE-AAE1ECD5E0E4",
+      "currentTLK" : "A300FA18-9743-43AC-91EF-B09DCE3BC66D",
+      "currentTLKPtr" : "A300FA18-9743-43AC-91EF-B09DCE3BC66D",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Engram): kSOSCCInCircle CliqueStatusIn process_key_hierarchy A300FA18-9743-43AC-91EF-B09DCE3BC66D D3519799-DAD7-4F36-9BC9-E65F1984DC7A 832EFDED-1BE4-4994-A9CE-AAE1ECD5E0E4 upd:2025-03-30 08:08:46 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Engram): kSOSCCError CliqueStatusIn ready A300FA18-9743-43AC-91EF-B09DCE3BC66D D3519799-DAD7-4F36-9BC9-E65F1984DC7A 832EFDED-1BE4-4994-A9CE-AAE1ECD5E0E4 upd:2025-04-07 18:15:33 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.654-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.208-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.703-0500 - ready:1",
+        "2025-04-08T17:44:00.299-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.311-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Engram",
+        "attr: zonesize: 5"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:30 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:06 +0000>",
+        "<CKKSTLKShare[](A300FA18-9743-43AC-91EF-B09DCE3BC66D): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "Engram",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "global" : {
+      "accounttracker" : "<CKKSAccountStateTracker: <CKAccountInfo: accountStatus=Available, accountPartition=Prod, deviceToDeviceEncryptionAvailability=(bypassPCSEncryption), hasValidCredentials=true, walrus=bypassPCSEncryption, needsToVerifyTerms=false, accountAccessAuthorization=Yes, validationCounter=2>, cdp capable: available>",
+      "activeAccount" : "<null>",
+      "ckaccountstatus" : "available",
+      "ckdeviceID" : "756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7",
+      "ckdeviceIDError" : "<null>",
+      "ckksstate" : "ready",
+      "cloudkitRetryAfter" : "<CKKSNearFutureScheduler(zonemodifier-ckretryafter): no pending attempts",
+      "fetcher" : "<CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches",
+      "lastCKKSPush" : "2025-04-08 12:32:33 +0000",
+      "lastIncomingQueueOperation" : "<CKKSIncomingQueueOperation(incoming-queue-operation): finished 2025-04-09 14:46:58 +0000>",
+      "lastNewTLKOperation" : "<null>",
+      "lastOutgoingQueueOperation" : "<CKKSOutgoingQueueOperation: finished 2025-04-09 19:53:05 +0000 2025-04-09 19:53:05 +0000>",
+      "lastProcessReceivedKeysOperation" : "<null>",
+      "lastReencryptOutgoingItemsOperation" : "<null>",
+      "launchSequence" : [
+        "2025-04-08T17:43:32.209-0500 - started:1",
+        "2025-04-08T17:43:52.640-0500 - syncing-policy-set:2",
+        "2025-04-08T17:43:59.094-0500 - ck-account-login:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.718-0500 - heal-tlk-shares-begin:1",
+        "2025-04-08T17:44:00.277-0500 - heal-tlk-shares-complete:1",
+        "2025-04-08T17:44:00.280-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.312-0500 - incoming-processing-complete:1",
+        "2025-04-09T14:53:05.066-0500 - re-launch:1",
+        "attr: view: global",
+        "attr: totalsize: 200"
+      ],
+      "lockstatetracker" : "<CKKSLockStateTracker: unlocked last:now>",
+      "operationQueue" : [
+        "<CKKSResultOperation(status-rpc): executing>"
+      ],
+      "policy" : "<TPSyncingPolicy: <TPPolicyVersion: 20, SHA256:OIzjC3WyLGrM8GAd\/EyIfVzTJdYmcGoKPFdQeWeRZTY=>, iPhone14,5, userViews: ENABLED>",
+      "reachability" : "network",
+      "view" : "global",
+      "viewsFromPolicy" : "yes"
+    },
+    "Groups" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+
+      },
+      "currentClassA" : "C5304B1A-638E-45DC-BA85-6A05F6118280",
+      "currentClassAPtr" : "C5304B1A-638E-45DC-BA85-6A05F6118280",
+      "currentClassC" : "4E5430D4-C3AD-4766-A2E3-0B8A7DDA2A94",
+      "currentClassCPtr" : "4E5430D4-C3AD-4766-A2E3-0B8A7DDA2A94",
+      "currentTLK" : "E5922F23-CF27-4C56-AE2E-2967EFB1C227",
+      "currentTLKPtr" : "E5922F23-CF27-4C56-AE2E-2967EFB1C227",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Groups): kSOSCCInCircle CliqueStatusIn process_key_hierarchy E5922F23-CF27-4C56-AE2E-2967EFB1C227 C5304B1A-638E-45DC-BA85-6A05F6118280 4E5430D4-C3AD-4766-A2E3-0B8A7DDA2A94 upd:2025-03-30 08:08:46 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Groups): kSOSCCError CliqueStatusIn ready E5922F23-CF27-4C56-AE2E-2967EFB1C227 C5304B1A-638E-45DC-BA85-6A05F6118280 4E5430D4-C3AD-4766-A2E3-0B8A7DDA2A94 upd:2025-04-07 18:15:33 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.660-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.215-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.700-0500 - ready:1",
+        "2025-04-08T17:44:00.298-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.311-0500 - incoming-processed:1",
+        "attr: view: Groups"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](E5922F23-CF27-4C56-AE2E-2967EFB1C227): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:29 +0000>",
+        "<CKKSTLKShare[](E5922F23-CF27-4C56-AE2E-2967EFB1C227): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](E5922F23-CF27-4C56-AE2E-2967EFB1C227): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](E5922F23-CF27-4C56-AE2E-2967EFB1C227): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](E5922F23-CF27-4C56-AE2E-2967EFB1C227): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](E5922F23-CF27-4C56-AE2E-2967EFB1C227): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "Groups",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Health" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+
+      },
+      "currentClassA" : "3B3DC3BA-CD6F-4FD1-A50C-A18ECFD0094C",
+      "currentClassAPtr" : "3B3DC3BA-CD6F-4FD1-A50C-A18ECFD0094C",
+      "currentClassC" : "235C5F03-624C-4E79-9DE4-1A740ADC266A",
+      "currentClassCPtr" : "235C5F03-624C-4E79-9DE4-1A740ADC266A",
+      "currentTLK" : "B336962D-05FE-4AEE-A156-303E8A924690",
+      "currentTLKPtr" : "B336962D-05FE-4AEE-A156-303E8A924690",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Health): kSOSCCInCircle CliqueStatusIn process_key_hierarchy B336962D-05FE-4AEE-A156-303E8A924690 3B3DC3BA-CD6F-4FD1-A50C-A18ECFD0094C 235C5F03-624C-4E79-9DE4-1A740ADC266A upd:2025-03-30 08:08:45 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Health): kSOSCCError CliqueStatusIn ready B336962D-05FE-4AEE-A156-303E8A924690 3B3DC3BA-CD6F-4FD1-A50C-A18ECFD0094C 235C5F03-624C-4E79-9DE4-1A740ADC266A upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.673-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.231-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.683-0500 - ready:1",
+        "2025-04-08T17:44:00.293-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.309-0500 - incoming-processed:1",
+        "attr: view: Health"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:06 +0000>",
+        "<CKKSTLKShare[](B336962D-05FE-4AEE-A156-303E8A924690): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "Health",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Home" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "813859CF-DE12-4227-9861-A03CC7539938" : 11
+      },
+      "currentClassA" : "9DFC6630-71FD-4B7B-901A-5C448DA3943C",
+      "currentClassAPtr" : "9DFC6630-71FD-4B7B-901A-5C448DA3943C",
+      "currentClassC" : "813859CF-DE12-4227-9861-A03CC7539938",
+      "currentClassCPtr" : "813859CF-DE12-4227-9861-A03CC7539938",
+      "currentTLK" : "99AF0446-2263-4210-B0ED-1EA249176891",
+      "currentTLKPtr" : "99AF0446-2263-4210-B0ED-1EA249176891",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-04-05 00:00:00 +0000,Home): kSOSCCInCircle CliqueStatusIn ready 99AF0446-2263-4210-B0ED-1EA249176891 9DFC6630-71FD-4B7B-901A-5C448DA3943C 813859CF-DE12-4227-9861-A03CC7539938 upd:2025-04-05 06:42:00 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Home): kSOSCCError CliqueStatusIn ready 99AF0446-2263-4210-B0ED-1EA249176891 9DFC6630-71FD-4B7B-901A-5C448DA3943C 813859CF-DE12-4227-9861-A03CC7539938 upd:2025-04-07 18:15:34 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.662-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.217-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.713-0500 - ready:1",
+        "2025-04-08T17:44:00.303-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.312-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Home",
+        "attr: zonesize: 10"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:30 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:06 +0000>",
+        "<CKKSTLKShare[](99AF0446-2263-4210-B0ED-1EA249176891): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "Home",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "LimitedPeersAllowed" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "65597EB7-B1BB-402E-AAF9-87229F941AA1" : 20
+      },
+      "currentClassA" : "7174A262-C8EB-4861-8272-7818CB66C9C0",
+      "currentClassAPtr" : "7174A262-C8EB-4861-8272-7818CB66C9C0",
+      "currentClassC" : "65597EB7-B1BB-402E-AAF9-87229F941AA1",
+      "currentClassCPtr" : "65597EB7-B1BB-402E-AAF9-87229F941AA1",
+      "currentTLK" : "95964E73-2FB1-4BD5-993C-3EEE9303C85F",
+      "currentTLKPtr" : "95964E73-2FB1-4BD5-993C-3EEE9303C85F",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,LimitedPeersAllowed): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 95964E73-2FB1-4BD5-993C-3EEE9303C85F 7174A262-C8EB-4861-8272-7818CB66C9C0 65597EB7-B1BB-402E-AAF9-87229F941AA1 upd:2025-03-30 08:08:45 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,LimitedPeersAllowed): kSOSCCError CliqueStatusIn ready 95964E73-2FB1-4BD5-993C-3EEE9303C85F 7174A262-C8EB-4861-8272-7818CB66C9C0 65597EB7-B1BB-402E-AAF9-87229F941AA1 upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.657-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.211-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.687-0500 - ready:1",
+        "2025-04-08T17:44:00.294-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.309-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: LimitedPeersAllowed",
+        "attr: zonesize: 20"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:29 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:06 +0000>",
+        "<CKKSTLKShare[](95964E73-2FB1-4BD5-993C-3EEE9303C85F): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "LimitedPeersAllowed",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Mail" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+
+      },
+      "currentClassA" : "B9AA7B93-645B-4AD1-959E-CCE7354C1D34",
+      "currentClassAPtr" : "B9AA7B93-645B-4AD1-959E-CCE7354C1D34",
+      "currentClassC" : "515AB682-1ED9-48A4-AE82-477BC17FA237",
+      "currentClassCPtr" : "515AB682-1ED9-48A4-AE82-477BC17FA237",
+      "currentTLK" : "98B9C48F-A711-4E85-9E27-926F313726E9",
+      "currentTLKPtr" : "98B9C48F-A711-4E85-9E27-926F313726E9",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Mail): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 98B9C48F-A711-4E85-9E27-926F313726E9 B9AA7B93-645B-4AD1-959E-CCE7354C1D34 515AB682-1ED9-48A4-AE82-477BC17FA237 upd:2025-03-30 08:08:44 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Mail): kSOSCCError CliqueStatusIn ready 98B9C48F-A711-4E85-9E27-926F313726E9 B9AA7B93-645B-4AD1-959E-CCE7354C1D34 515AB682-1ED9-48A4-AE82-477BC17FA237 upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.656-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.210-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.668-0500 - ready:1",
+        "2025-04-08T17:44:00.289-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.308-0500 - incoming-processed:1",
+        "attr: view: Mail"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:05 +0000>",
+        "<CKKSTLKShare[](98B9C48F-A711-4E85-9E27-926F313726E9): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:47 +0000>"
+      ],
+      "view" : "Mail",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Manatee" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "9004A645-F0F6-48B6-9DFE-011FF70B6667" : 41
+      },
+      "currentClassA" : "A5832FE1-A3E5-49EA-A451-1892188C57D6",
+      "currentClassAPtr" : "A5832FE1-A3E5-49EA-A451-1892188C57D6",
+      "currentClassC" : "9004A645-F0F6-48B6-9DFE-011FF70B6667",
+      "currentClassCPtr" : "9004A645-F0F6-48B6-9DFE-011FF70B6667",
+      "currentTLK" : "6BB5B4DC-24A0-4477-84CB-3DB899D63A4D",
+      "currentTLKPtr" : "6BB5B4DC-24A0-4477-84CB-3DB899D63A4D",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Manatee): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 6BB5B4DC-24A0-4477-84CB-3DB899D63A4D A5832FE1-A3E5-49EA-A451-1892188C57D6 9004A645-F0F6-48B6-9DFE-011FF70B6667 upd:2025-03-30 08:08:46 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Manatee): kSOSCCError CliqueStatusIn ready 6BB5B4DC-24A0-4477-84CB-3DB899D63A4D A5832FE1-A3E5-49EA-A451-1892188C57D6 9004A645-F0F6-48B6-9DFE-011FF70B6667 upd:2025-04-07 18:15:33 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.665-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.222-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.707-0500 - ready:1",
+        "2025-04-08T17:44:00.301-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.311-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Manatee",
+        "attr: zonesize: 40"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:30 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:06 +0000>",
+        "<CKKSTLKShare[](6BB5B4DC-24A0-4477-84CB-3DB899D63A4D): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "Manatee",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "MFi" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+
+      },
+      "currentClassA" : "BCEEE5F2-5370-41CC-82C9-0BCFA39706FE",
+      "currentClassAPtr" : "BCEEE5F2-5370-41CC-82C9-0BCFA39706FE",
+      "currentClassC" : "0A227D70-78A7-40EF-8182-2EDDDDF6B398",
+      "currentClassCPtr" : "0A227D70-78A7-40EF-8182-2EDDDDF6B398",
+      "currentTLK" : "9345EFBB-F508-4261-A873-785203466B8B",
+      "currentTLKPtr" : "9345EFBB-F508-4261-A873-785203466B8B",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,MFi): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 9345EFBB-F508-4261-A873-785203466B8B BCEEE5F2-5370-41CC-82C9-0BCFA39706FE 0A227D70-78A7-40EF-8182-2EDDDDF6B398 upd:2025-03-30 08:08:47 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,MFi): kSOSCCError CliqueStatusIn ready 9345EFBB-F508-4261-A873-785203466B8B BCEEE5F2-5370-41CC-82C9-0BCFA39706FE 0A227D70-78A7-40EF-8182-2EDDDDF6B398 upd:2025-04-07 18:15:34 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.670-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.229-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.710-0500 - ready:1",
+        "2025-04-08T17:44:00.302-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.311-0500 - incoming-processed:1",
+        "attr: view: MFi"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:30 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:spid-DyuCIjKztFaPbi8dw\/aEITw7ww send:spid-DyuCIjKztFaPbi8dw\/aEITw7ww mod:2025-03-03 00:36:06 +0000>",
+        "<CKKSTLKShare[](9345EFBB-F508-4261-A873-785203466B8B): recv:spid-W6gK3ozvk0Y26W356vco\/DkY\/V send:spid-W6gK3ozvk0Y26W356vco\/DkY\/V mod:2025-03-03 00:40:48 +0000>"
+      ],
+      "view" : "MFi",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Passwords" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "4D04A8ED-BE25-41E2-B81E-B1336011ECDE" : 46
+      },
+      "currentClassA" : "4D04A8ED-BE25-41E2-B81E-B1336011ECDE",
+      "currentClassAPtr" : "4D04A8ED-BE25-41E2-B81E-B1336011ECDE",
+      "currentClassC" : "C92ED907-5B11-47A1-949C-8C4F047A5015",
+      "currentClassCPtr" : "C92ED907-5B11-47A1-949C-8C4F047A5015",
+      "currentTLK" : "027AB1A4-8246-49B6-9CF7-C5962E99FCD5",
+      "currentTLKPtr" : "027AB1A4-8246-49B6-9CF7-C5962E99FCD5",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Passwords): kSOSCCInCircle CliqueStatusIn process_key_hierarchy 027AB1A4-8246-49B6-9CF7-C5962E99FCD5 4D04A8ED-BE25-41E2-B81E-B1336011ECDE C92ED907-5B11-47A1-949C-8C4F047A5015 upd:2025-03-30 08:08:43 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-08 00:00:00 +0000,Passwords): kSOSCCError CliqueStatusIn ready 027AB1A4-8246-49B6-9CF7-C5962E99FCD5 4D04A8ED-BE25-41E2-B81E-B1336011ECDE C92ED907-5B11-47A1-949C-8C4F047A5015 upd:2025-04-08 00:54:45 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.667-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.225-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.641-0500 - ready:1",
+        "2025-04-08T17:44:00.285-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.307-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Passwords",
+        "attr: zonesize: 40"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](027AB1A4-8246-49B6-9CF7-C5962E99FCD5): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>"
+      ],
+      "view" : "Passwords",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "Photos" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "5D05B6F7-687C-4312-867F-EA26B17C8116" : 1
+      },
+      "currentClassA" : "56A00806-67E1-451D-AAEC-83156705D170",
+      "currentClassAPtr" : "56A00806-67E1-451D-AAEC-83156705D170",
+      "currentClassC" : "5D05B6F7-687C-4312-867F-EA26B17C8116",
+      "currentClassCPtr" : "5D05B6F7-687C-4312-867F-EA26B17C8116",
+      "currentTLK" : "B1930D9B-3CB1-4D6C-9984-FF1100F96B1B",
+      "currentTLKPtr" : "B1930D9B-3CB1-4D6C-9984-FF1100F96B1B",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,Photos): kSOSCCInCircle CliqueStatusIn process_key_hierarchy B1930D9B-3CB1-4D6C-9984-FF1100F96B1B 56A00806-67E1-451D-AAEC-83156705D170 5D05B6F7-687C-4312-867F-EA26B17C8116 upd:2025-03-30 08:08:46 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,Photos): kSOSCCError CliqueStatusIn ready B1930D9B-3CB1-4D6C-9984-FF1100F96B1B 56A00806-67E1-451D-AAEC-83156705D170 5D05B6F7-687C-4312-867F-EA26B17C8116 upd:2025-04-07 18:15:33 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.663-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.221-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.693-0500 - ready:1",
+        "2025-04-08T17:44:00.296-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.310-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: Photos",
+        "attr: zonesize: 1"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= send:SHA256:\/J5MvslOcbepJjHfnzNSFPwkC0t7SHMdBgbya3GK17U= mod:2024-12-31 22:49:40 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= send:SHA256:5TU4QQCvrcPpER108DgyDakLkEVU+V3gAEY59WtMiOU= mod:2025-03-03 00:35:50 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:29 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>",
+        "<CKKSTLKShare[](B1930D9B-3CB1-4D6C-9984-FF1100F96B1B): recv:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= send:SHA256:zw9Gu6jjsSgnpC8NYdFLQ3Rv1+5FD4B5H88c0if3rKE= mod:2025-02-22 11:11:39 +0000>"
+      ],
+      "view" : "Photos",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "ProtectedCloudStorage" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "B5948A38-5EA7-4B74-9546-E39FF42A0E14" : 35
+      },
+      "currentClassA" : "291AA93B-5C3B-4C21-940C-9EF72752D782",
+      "currentClassAPtr" : "291AA93B-5C3B-4C21-940C-9EF72752D782",
+      "currentClassC" : "B5948A38-5EA7-4B74-9546-E39FF42A0E14",
+      "currentClassCPtr" : "B5948A38-5EA7-4B74-9546-E39FF42A0E14",
+      "currentTLK" : "D9D7637B-7B71-4251-98D8-C4B996D3479C",
+      "currentTLKPtr" : "D9D7637B-7B71-4251-98D8-C4B996D3479C",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,ProtectedCloudStorage): kSOSCCInCircle CliqueStatusIn process_key_hierarchy D9D7637B-7B71-4251-98D8-C4B996D3479C 291AA93B-5C3B-4C21-940C-9EF72752D782 B5948A38-5EA7-4B74-9546-E39FF42A0E14 upd:2025-03-30 08:08:43 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,ProtectedCloudStorage): kSOSCCError CliqueStatusIn process_key_hierarchy D9D7637B-7B71-4251-98D8-C4B996D3479C 291AA93B-5C3B-4C21-940C-9EF72752D782 B5948A38-5EA7-4B74-9546-E39FF42A0E14 upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.656-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.209-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.637-0500 - ready:1",
+        "2025-04-08T17:44:00.284-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.307-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: ProtectedCloudStorage",
+        "attr: zonesize: 30"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](D9D7637B-7B71-4251-98D8-C4B996D3479C): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:27 +0000>",
+        "<CKKSTLKShare[](D9D7637B-7B71-4251-98D8-C4B996D3479C): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](D9D7637B-7B71-4251-98D8-C4B996D3479C): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](D9D7637B-7B71-4251-98D8-C4B996D3479C): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](D9D7637B-7B71-4251-98D8-C4B996D3479C): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](D9D7637B-7B71-4251-98D8-C4B996D3479C): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "ProtectedCloudStorage",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "SE-PTA" : {
+      "ckksManaged" : "no",
+      "currentTLK" : null,
+      "currentTLKPtr" : null,
+      "initialSyncFinished" : "no",
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.672-0500 - started:1",
+        "2025-04-08T17:43:59.230-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - ready:1",
+        "attr: view: SE-PTA"
+      ],
+      "statusError" : null,
+      "tlkshares" : [
+
+      ],
+      "view" : "SE-PTA",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "SE-PTC" : {
+      "ckksManaged" : "no",
+      "currentTLK" : null,
+      "currentTLKPtr" : "A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD",
+      "initialSyncFinished" : "no",
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.655-0500 - started:1",
+        "2025-04-08T17:43:59.207-0500 - initialized:1",
+        "2025-04-08T17:43:59.373-0500 - ready:1",
+        "attr: view: SE-PTC"
+      ],
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-2VeLLm96wy8yyOlYf8E0TViq3TF9RcxfGfOvJDgRDTo= send:spid-2VeLLm96wy8yyOlYf8E0TViq3TF9RcxfGfOvJDgRDTo= mod:2024-12-31 22:50:00 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-6GNqVValTrT1BM+KDwz\/L5iYHYGCeuZZkO+4jH8R3no= send:spid-6GNqVValTrT1BM+KDwz\/L5iYHYGCeuZZkO+4jH8R3no= mod:2025-03-17 18:57:52 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-8NuV1s8dPmYDMnE39CYy5wQ8Q8ynVDVIGmhAQ33c\/C4= send:spid-8NuV1s8dPmYDMnE39CYy5wQ8Q8ynVDVIGmhAQ33c\/C4= mod:2025-02-21 23:09:29 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-DegaGUecsmL63ziTtyAhGXkU\/gW0d8AxJcCjhMCb87I= send:spid-LA36fCKff30qn3odG6T4smJVgqvJb98nMZimaoz+W1s= mod:2025-03-03 00:40:59 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-LA36fCKff30qn3odG6T4smJVgqvJb98nMZimaoz+W1s= send:spid-LA36fCKff30qn3odG6T4smJVgqvJb98nMZimaoz+W1s= mod:2025-03-03 00:40:59 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-DegaGUecsmL63ziTtyAhGXkU\/gW0d8AxJcCjhMCb87I= send:spid-m7QZkobKqCMOoO5dTS5XMY4HFHqsI9Uj2ixSYi8AyLU= mod:2025-03-03 00:36:18 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-m7QZkobKqCMOoO5dTS5XMY4HFHqsI9Uj2ixSYi8AyLU= send:spid-m7QZkobKqCMOoO5dTS5XMY4HFHqsI9Uj2ixSYi8AyLU= mod:2025-03-03 00:36:18 +0000>",
+        "<CKKSTLKShare[](A0D426BC-3239-16CF-85FA-B2FBB0D6BEDD): recv:spid-yo\/yivRsre9nsKGQv3euhX8KviDDAqQFPxnpZbS5O6c= send:spid-yo\/yivRsre9nsKGQv3euhX8KviDDAqQFPxnpZbS5O6c= mod:2025-03-03 01:31:31 +0000>"
+      ],
+      "view" : "SE-PTC",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "SecureObjectSync" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "A01ED4F1-856A-4896-AFA2-F36DD6FF11C0" : 3,
+        "E6F71498-2E1E-4156-B640-ACAEF68C2234" : 2
+      },
+      "currentClassA" : "A01ED4F1-856A-4896-AFA2-F36DD6FF11C0",
+      "currentClassAPtr" : "A01ED4F1-856A-4896-AFA2-F36DD6FF11C0",
+      "currentClassC" : "E6F71498-2E1E-4156-B640-ACAEF68C2234",
+      "currentClassCPtr" : "E6F71498-2E1E-4156-B640-ACAEF68C2234",
+      "currentTLK" : "DF3D6309-726E-49C9-8744-8D5EE0BE579C",
+      "currentTLKPtr" : "DF3D6309-726E-49C9-8744-8D5EE0BE579C",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-03-30 00:00:00 +0000,SecureObjectSync): kSOSCCInCircle CliqueStatusIn process_key_hierarchy DF3D6309-726E-49C9-8744-8D5EE0BE579C A01ED4F1-856A-4896-AFA2-F36DD6FF11C0 E6F71498-2E1E-4156-B640-ACAEF68C2234 upd:2025-03-30 08:08:43 +0000>",
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-07 00:00:00 +0000,SecureObjectSync): kSOSCCError CliqueStatusIn ready DF3D6309-726E-49C9-8744-8D5EE0BE579C A01ED4F1-856A-4896-AFA2-F36DD6FF11C0 E6F71498-2E1E-4156-B640-ACAEF68C2234 upd:2025-04-07 18:15:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.653-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.207-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.644-0500 - ready:1",
+        "2025-04-08T17:44:00.286-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.308-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: SecureObjectSync",
+        "attr: zonesize: 5"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](DF3D6309-726E-49C9-8744-8D5EE0BE579C): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:27 +0000>",
+        "<CKKSTLKShare[](DF3D6309-726E-49C9-8744-8D5EE0BE579C): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](DF3D6309-726E-49C9-8744-8D5EE0BE579C): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](DF3D6309-726E-49C9-8744-8D5EE0BE579C): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](DF3D6309-726E-49C9-8744-8D5EE0BE579C): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](DF3D6309-726E-49C9-8744-8D5EE0BE579C): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "SecureObjectSync",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    },
+    "WiFi" : {
+      "ckksManaged" : "yes",
+      "ckmirror" : {
+        "4872204C-0E9B-4CF7-B460-0550A280EF17" : 3
+      },
+      "currentClassA" : "1267A099-D2AF-45BB-8135-4DE9595966B3",
+      "currentClassAPtr" : "1267A099-D2AF-45BB-8135-4DE9595966B3",
+      "currentClassC" : "4872204C-0E9B-4CF7-B460-0550A280EF17",
+      "currentClassCPtr" : "4872204C-0E9B-4CF7-B460-0550A280EF17",
+      "currentTLK" : "0F7F1FBC-601A-4484-8D06-03F26C9F0F08",
+      "currentTLKPtr" : "0F7F1FBC-601A-4484-8D06-03F26C9F0F08",
+      "devicestates" : [
+        "<CKKSDeviceStateEntry[](756342751111698BDDE5AA07C4C0FA256922031D652D7A28BD4B5B0B8AD1EBF7,(null),SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA=,iphone 24.5.0 (22F5042g),2025-04-06 00:00:00 +0000,WiFi): kSOSCCError CliqueStatusIn ready 0F7F1FBC-601A-4484-8D06-03F26C9F0F08 1267A099-D2AF-45BB-8135-4DE9595966B3 4872204C-0E9B-4CF7-B460-0550A280EF17 upd:2025-04-06 18:08:51 +0000>",
+        "<CKKSDeviceStateEntry[](0212185B965BC29D4C52CF8AAA76A457165127B278D5CA6A321ACB4A4D38EF2C,W6gK3ozvk0Y26W356vco\/DkY\/V,SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ=,iphone 22.6.0 (20H350),2025-04-08 00:00:00 +0000,WiFi): kSOSCCInCircle CliqueStatusIn ready 0F7F1FBC-601A-4484-8D06-03F26C9F0F08 1267A099-D2AF-45BB-8135-4DE9595966B3 4872204C-0E9B-4CF7-B460-0550A280EF17 upd:2025-04-08 12:32:32 +0000>"
+      ],
+      "initialSyncFinished" : "yes",
+      "iqe" : {
+
+      },
+      "itemsyncing" : "enabled",
+      "keys" : {
+        "local-classA" : 1,
+        "local-classC" : 1,
+        "local-tlk" : 1
+      },
+      "keystate" : "ready",
+      "launchSequence" : [
+        "2025-04-08T17:43:52.659-0500 - started:1",
+        "2025-04-08T17:43:59.159-0500 - trust:1",
+        "2025-04-08T17:43:59.213-0500 - initialized:1",
+        "2025-04-08T17:43:59.372-0500 - process_key_hierarchy:1",
+        "2025-04-08T17:43:59.656-0500 - ready:1",
+        "2025-04-08T17:44:00.288-0500 - incoming-processing-begin:1",
+        "2025-04-08T17:44:00.308-0500 - incoming-processed:1",
+        "attr: totalsize: 200",
+        "attr: view: WiFi",
+        "attr: zonesize: 3"
+      ],
+      "oqe" : {
+
+      },
+      "statusError" : null,
+      "tlkshares" : [
+        "<CKKSTLKShare[](0F7F1FBC-601A-4484-8D06-03F26C9F0F08): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= mod:2025-03-03 00:49:28 +0000>",
+        "<CKKSTLKShare[](0F7F1FBC-601A-4484-8D06-03F26C9F0F08): recv:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= send:SHA256:i\/3mrdt43oMdzykNfhdQa2HNgjE54acp4\/zlTmdzYFA= mod:2025-02-26 16:32:34 +0000>",
+        "<CKKSTLKShare[](0F7F1FBC-601A-4484-8D06-03F26C9F0F08): recv:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= send:SHA256:lJoF9t0J1H3lyj9CkUUio7wklHWOaVbMJJzdxIViIFI= mod:2025-03-03 01:31:26 +0000>",
+        "<CKKSTLKShare[](0F7F1FBC-601A-4484-8D06-03F26C9F0F08): recv:SHA256:gftRp5aHWFW0FcIotqfo3Xv19JpAWLTo1h4OVevf1TA= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:49:22 +0000>",
+        "<CKKSTLKShare[](0F7F1FBC-601A-4484-8D06-03F26C9F0F08): recv:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= send:SHA256:ud2dnZztf09zIkM+zp+8PNu1qz8MO\/owA4eDAg41InQ= mod:2025-03-03 00:40:40 +0000>",
+        "<CKKSTLKShare[](0F7F1FBC-601A-4484-8D06-03F26C9F0F08): recv:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= send:SHA256:v1nHVQOi\/NrHFIXWS9\/UnhkdZ8j\/goXjWwvHgeuFHKA= mod:2025-02-26 16:43:45 +0000>"
+      ],
+      "view" : "WiFi",
+      "zoneCreated" : "yes",
+      "zoneSubscribed" : "yes"
+    }
+  }
+}
